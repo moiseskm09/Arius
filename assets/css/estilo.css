@@ -85,18 +85,21 @@ footer {
 .column {
   width: 100%;
   margin: 0 0.2rem;
-  background: #a8a8a8;
-  border: #000013 0.2rem solid;
-  border-radius: 0.2rem;
+  background: #f1be484d;
+  border: #f1be48 0.2rem dotted;
+  border-radius: 0.6rem;
 }
 
 .column-header {
   padding: 0.1rem;
-  border-bottom: #000013 0.2rem solid;
+  border-bottom: #1d4289 0.2rem solid;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .column-header h4 {
   text-align: center;
+  color: #ffffff;
 }
 
 .to-do-column .column-header {
@@ -233,7 +236,13 @@ li {
 .fundo-azul{
     background-color: #1d4289;
 }
+.cor-azul{
+    color: #1d4289;
+}
 
 .fundo_amarelo{
+    background-color: #f1be48;
+}
+.cor_amarelo{
     background-color: #f1be48;
 }

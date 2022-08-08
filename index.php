@@ -11,16 +11,21 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
     <title>INAUGURAÇÕES</title>
   </head>
-  <body>
+  <body class="fundo-azul">
       <div class="container-fluid">
-          
+          <div class="row mt-2">
+              <div class="col-lg-12 col-md-12 col-12 text-end">
+                  <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  <i class="fas fa-plus-circle"></i>
+</button>
+              </div>
+          </div>
           <div class="row">
               <div class="col-lg-3 col-md-3 col-12">
                   <ul class="columns">
-
     <li class="column to-do-column">
       <div class="column-header">
-        <h4>Novos</h4>
+        <h4>Há Fazer</h4>
       </div>
       <ul class="task-list" id="to-do">
         <li class="task">
@@ -47,7 +52,7 @@
 
     <li class="column doing-column">
       <div class="column-header">
-        <h4>Em progresso</h4>
+        <h4>Em andamento</h4>
       </div>
       <ul class="task-list" id="doing">
       </ul>
@@ -83,21 +88,15 @@
               </div>
           </div>
       </div> 
-      
-      <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  <i class="fas fa-plus-circle"></i>
-</button>
-
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header fundo_amarelo">
-        <h5 class="modal-title" id="exampleModalLabel">Adicionar Tarefa</h5>
+        <h5 class="modal-title cor-azul" id="exampleModalLabel">Adicionar Tarefa</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="modal-body">
+      <div class="modal-body p-2">
         <div class="row">
               <div class="col-lg-12 col-md-12 col-12">
                   <div class="input-group mb-3">
@@ -106,7 +105,7 @@
               </div>
           </div>
       </div>
-      <div class="modal-footer">
+      <div class="modal-footer p-1">
         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
         <button type="button" class="btn btn-success" id="add" onclick="addTask()">Adicionar</button>
       </div>
