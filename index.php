@@ -25,7 +25,7 @@
                   <ul class="columns">
     <li class="column to-do-column">
       <div class="column-header">
-        <h4>Há FAZER</h4>
+        <h4>HÁ FAZER</h4>
       </div>
       <ul class="task-list" id="to-do">
         <li class="task">
