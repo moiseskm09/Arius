@@ -25,7 +25,7 @@
                   <ul class="columns">
     <li class="column to-do-column">
       <div class="column-header">
-        <h4>Há Fazer</h4>
+        <h4>Há FAZER</h4>
       </div>
       <ul class="task-list" id="to-do">
         <li class="task">
@@ -52,7 +52,7 @@
 
     <li class="column doing-column">
       <div class="column-header">
-        <h4>Em andamento</h4>
+        <h4>EM ANDAMENTO</h4>
       </div>
       <ul class="task-list" id="doing">
       </ul>
@@ -64,7 +64,7 @@
 
     <li class="column done-column">
       <div class="column-header">
-        <h4>Concluídos</h4>
+        <h4>CONCLUÍDOS</h4>
       </div>
       <ul class="task-list" id="done">
       </ul>
@@ -76,7 +76,7 @@
 
     <li class="column trash-column">
       <div class="column-header">
-        <h4>Excluir</h4>
+        <h4>EXCLUIR</h4>
       </div>
       <ul class="task-list" id="trash">
       </ul>
